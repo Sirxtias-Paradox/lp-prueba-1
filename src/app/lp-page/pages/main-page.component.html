@@ -1,0 +1,19 @@
+
+
+
+<div class="row">
+  <div class="col">
+
+    <lp-list [characterList]="characters"
+             (onDelete)="onDeleteCharacter($event)">
+    </lp-list>
+
+  </div>
+
+  <div class="col">
+
+    <lp-add-character (onNewCharacter)="onNewCharacter($event)" ></lp-add-character>
+
+  </div>
+
+</div>
